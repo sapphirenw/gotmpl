@@ -1,4 +1,4 @@
-package main
+package gotmpl
 
 // Copyright 2017 Danny van Kooten. All rights reserved.
 // Use of this source code is governed by a MIT-style
