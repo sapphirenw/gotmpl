@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func defaultFuncMap() *template.FuncMap {
+func DefaultFuncMap() *template.FuncMap {
 	return &template.FuncMap{
 		"dict":     dict,
 		"truncstr": truncstr,
