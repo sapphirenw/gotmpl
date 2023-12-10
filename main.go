@@ -32,10 +32,18 @@ type templatefile struct {
 	layout   string
 }
 
+var XT *Extemplate
+
 func init() {
 	var err error
 	if extendsRegex, err = regexp.Compile(`\{\{ *?extends +?"(.+?)" *?\}\}`); err != nil {
 		panic(err)
+	}
+
+	// create the xtemplate
+	XT = New()
+	if XT == nil {
+		panic("XT WAS NIL")
 	}
 }
 
