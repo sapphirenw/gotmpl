@@ -6,7 +6,7 @@ This extension layer allows for an inheritence based model, where templates can 
 
 This is less "go-like", but suites my own personal development preference when building websites, coming from NextJS and React.
 
-The modifications made by Jake Landers fix a few bugs found in the original version, and define some default functions that make development with the templates a bit easier.   
+The modifications made by Jake Landers fix a few bugs found in the original version, and define some default functions that make development with the templates a bit easier.
 
 ## How to Use
 
